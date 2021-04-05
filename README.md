@@ -34,7 +34,7 @@ This will take a file as an input and return response in an another file.
     ``` 
     sudo docker build -t <image-tag> -f Dockerfile .
     ```
-- deploy the container
+- Deploy the container
     ``` 
     sudo docker run --rm -it -d --name parking_lot <image-id>
     ```
