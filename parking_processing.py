@@ -222,7 +222,7 @@ if __name__=="__main__":
     pp = Parkingprocess(DEFAULT_SIZE)
     while True:
 
-        fp = open(input("enter your input file:")).readlines()
+        fp = open(input("enter your input file path:")).readlines()
 
         ofp = open('output.txt','+a')
         for command in fp:
