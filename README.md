@@ -35,7 +35,7 @@ This will take a file as an input and return response in an another file.
     ```
 - deploy the container
     ``` 
-    sudo docker run -d --rm --name parking_lot <image-id>
+    sudo docker run --rm -it -d --name parking_lot <image-id>
     ```
 - Running File and test cases
     ``` 
